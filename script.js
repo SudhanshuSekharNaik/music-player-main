@@ -17,7 +17,7 @@ let lastSongIndex = -1;
 
 const songs = [
   'khatta_Flow', 'Namastute', 'Nanchaku', 'Hola_Amigo', 
-  'lukka_chippi', 'nalla_free4tyle', 'raatkirani', 'swaah','Aaj_Bhi','Ishq_Mein','Jannatein_Kahan','Khwaab','Maahi','Mat_Aazma_Re','Sun_Saathiya','Sahiba',''
+  'lukka_chippi', 'nalla_free4tyle', 'raatkirani', 'swaah','Aaj_Bhi','Ishq_Mein','Jannatein_Kahan','Khwaab','Maahi','Mat_Aazma_Re','Sun_Saathiya','Sahiba',
 ,'Tera_Mera_Rishta','Toh_Phir_Aao','Tumhare_Hi_Rahenge_Hum'];
 
 let songIndex = 0;
@@ -172,5 +172,9 @@ document.getElementById('myVerse').addEventListener('click', function () {
     event.preventDefault(); // Prevent default navigation
     window.location.href = "tel:+1234567890";
 });
+
+
+
+
 
   
